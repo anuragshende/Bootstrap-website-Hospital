@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --primary-color:#EFF5F9;
+}
+
+.pic
+{
+    background-image: url(assests/MASK2.webp);
+
+    background-position: center;
+    background-size: cover;
+    height: 100VH;
+    width: 100%;
+}
+
+.circle-icon{
+height:40px;
+width:40px;
+background-color:#F2F6FA;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+font-size:25px;
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+ul li
+{
+    list-style: none;
+}
+
+.lonch
+{
+    cursor: pointer;
+    transition: all 0.25s  ease-in;
+}
+.lonch:hover
+{
+    transform: translateY(-10px);
+    transition: all 0.25s ease-in;
+}
